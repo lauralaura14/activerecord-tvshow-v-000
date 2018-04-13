@@ -16,6 +16,9 @@ class Show < ActiveRecord::Base
     Show.order(rating: :asc).first
   end
 
-  def self.sratings_sum
+  def self.ratings_sum
+  end
+
+  def self.popular_shows
   end
 end
